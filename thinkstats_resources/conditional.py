@@ -87,7 +87,7 @@ def RelativeRisk(first, others, week=38):
 
     risk.ComputeRelativeRisk(first_cond, other_cond)
 
-    return
+    #return
 
     myplot.Pmfs([first_cond, other_cond],
                 xlabel='weeks',
